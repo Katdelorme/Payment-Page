@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -65,7 +65,7 @@ section {
 	margin: auto;
 	width: 60%;
 }
-div.container {
+.container {
 	/*background-color: #b6b6b6;*/
 	/*border-radius: 25px;*/
 	min-height: 400px;
@@ -73,7 +73,7 @@ div.container {
 	position: relative;*/
 	width: 100%;
 	display: flex;
-	
+
 }
 .cart {
 	background-color: #e2763f;
@@ -93,7 +93,7 @@ h2 {
 	color: #ffffff;
 	font-size: 1.7em;
 	text-transform: uppercase;
-	
+
 }
 h3 {
 	font-size: 1.4em;
@@ -106,6 +106,9 @@ h4 {
 	margin-top: 5%;
 	text-transform: uppercase;
 }
+p{
+  font-size: 0.8em;
+}
 
 .payment div:first-child{
 	align-items: center;
@@ -113,7 +116,7 @@ h4 {
 	border-radius: 0 25px 0 0;
 	display: flex;
 	justify-content: space-between;
-	padding:0% 10%;
+	padding: 0 10%;
 	height: 8%;
 }
 .payment div:first-child i{
@@ -148,7 +151,7 @@ h4 {
 	align-items: center;
 	background: #eeeeee;
 	display: flex;
-	padding:0% 10%;
+	padding: 0 10%;
 	height: 8%;
 }
 .payment div:last-child{
@@ -157,10 +160,22 @@ h4 {
 	border-radius: 0 0 25px 0;
 	display: flex;
 	justify-content: center;
-	padding:0% 10%;
+	padding: 0 10%;
 	height: 12%;
 }
+.cart div:first-child{
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+  margin-top: 5%;
+}
 
+.cart div:nth-child(2), .cart div:nth-child(3), .cart div:last-child{
+  background: pink;
+  border-radius: 15px;
+  min-height: 80px;
+  margin-top: 5%;
+}
 
 /* footer */
 footer {
@@ -191,27 +206,27 @@ footer {
 /* Media Queries */
 /* ///////////// responsiveness ////////////// */
 @media only screen and (min-width: 1300px) {
-	
+
 }
 @media only screen and (max-width: 990px) {
-	
+
 }
 @media only screen and (max-width: 800px) {
-	
+
 }
 @media only screen and (max-width: 770px) {
-	
+
 }
 @media only screen and (max-width: 600px) {
-  /*kindle 600x1024*/ 
+  /*kindle 600x1024*/
 }
 @media only screen and (max-width: 480px) {
   /*iphone4 320x480*/
 }
 @media only screen and (max-width: 384px) {
-  /*blackberry Z 384*/ 
+  /*blackberry Z 384*/
 }
 @media only screen and (max-width: 320px) {
-  /*iphone4, 5s 320x480*/ 
+  /*iphone4, 5s 320x480*/
 }
 /* ///////////// responsiveness end////////////// */

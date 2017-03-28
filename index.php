@@ -40,7 +40,21 @@
 <body>
 	<section>
 		<div class="container">
-			<div class="cart">Cart</div>
+			<div class="cart">
+        <div>
+          <h3>Your Cart (3)</h3><p>&#9664 Continue shopping</p>
+        </div>
+        <div>
+          item 1
+        </div>
+        <div>
+          item 2
+        </div>
+        <div>
+          item 3
+        </div>
+        <!--<p>Total: $305</p>-->
+      </div>
 			<div class="payment">
 				<div>
 					<h3>1. Shipping</h3>
@@ -54,7 +68,7 @@
 					<i class="fa fa-cc-discover fa-lg" aria-hidden="true"></i>
 					<i class="fa fa-cc-mastercard fa-lg" aria-hidden="true"></i>
 					</div>
-					
+
 					<h4>Name</h4>
 					<input type="text" name="name" placeholder="Firstname Lastname">
 					<h4>Card Number</h4>
@@ -90,7 +104,7 @@
 						</select>
 					<h4>CC</h4>
 					<input type="text" name="cc" maxlength="4" size="4" placeholder="&#9679;&#9679;&#9679;">
-					
+
 				</div>
 				<div>
 					<h3>3. Order Preview</h3>
