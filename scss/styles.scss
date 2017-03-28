@@ -1,0 +1,109 @@
+@import 'reset';
+
+$primary: #7f65c7;
+$secondary: #c19b00;
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 150%;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.5em;
+}
+h5 {
+  font-size: 1.3em;
+}
+p{
+  font-size: 1em;
+}
+section{
+  display: inline-block;
+}
+
+/* header */
+header{
+  align-items: center;
+  background-color: $primary;
+  border-bottom: 1px solid #c6bfd8;
+  display: flex;
+  justify-content: space-between;
+  min-height:70px;
+  padding:0 15%;
+  width: 70%;
+}
+nav{
+  align-items: center;
+  background-color: #8e74ce;
+  color: #ffffff;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  text-align: center;
+  width: 40px;
+}
+
+/* general */
+
+
+/* footer */
+footer{
+  text-align: center;
+  padding: 2% 0;
+  a{
+   border: 1px solid $primary;
+   border-radius: 100%;
+   color: $primary;
+   display: inline-block;
+   //line-height:100px;
+   height: 25px;
+   text-decoration: none;
+   width: 25px;
+  }
+  a:hover{
+   background-color: $secondary;
+   border: 1px solid $secondary;
+  }
+ p{
+   text-align:center;
+   a{
+     border: none;
+     border-radius: 0;
+     color: $primary;
+     height: auto;
+     width: auto;
+   }
+   a:hover{
+     color: #ffffff;
+   }
+  }
+}
+
+/* Media Queries */
+/* ///////////// responsiveness ////////////// */
+@media only screen and (max-width: 1024px) {
+  /*kindle 600x1024*/
+  }
+@media only screen and (max-width: 770px) {
+  }
+@media only screen and (max-width: 600px) {
+  /*kindle 600x1024*/
+  }
+@media only screen and (max-width: 480px) {
+  /*iphone4 320x480*/
+  }
+@media only screen and (max-width: 384px) {
+  /*blackberry Z 384*/
+  }
+@media only screen and (max-width: 320px) {
+  /*iphone4, 5s 320x480*/
+  }
+/* ///////////// responsiveness end////////////// */

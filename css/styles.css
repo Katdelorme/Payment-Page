@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 150%; }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2.5em; }
+
+h3 {
+  font-size: 2em; }
+
+h4 {
+  font-size: 1.5em; }
+
+h5 {
+  font-size: 1.3em; }
+
+p {
+  font-size: 1em; }
+
+section {
+  display: inline-block; }
+
+/* header */
+header {
+  align-items: center;
+  background-color: #7f65c7;
+  border-bottom: 1px solid #c6bfd8;
+  display: flex;
+  justify-content: space-between;
+  min-height: 70px;
+  padding: 0 15%;
+  width: 70%; }
+
+nav {
+  align-items: center;
+  background-color: #8e74ce;
+  color: #ffffff;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  text-align: center;
+  width: 40px; }
+
+/* general */
+/* footer */
+footer {
+  text-align: center;
+  padding: 2% 0; }
+  footer a {
+    border: 1px solid #7f65c7;
+    border-radius: 100%;
+    color: #7f65c7;
+    display: inline-block;
+    height: 25px;
+    text-decoration: none;
+    width: 25px; }
+  footer a:hover {
+    background-color: #c19b00;
+    border: 1px solid #c19b00; }
+  footer p {
+    text-align: center; }
+    footer p a {
+      border: none;
+      border-radius: 0;
+      color: #7f65c7;
+      height: auto;
+      width: auto; }
+    footer p a:hover {
+      color: #ffffff; }
+
+/* Media Queries */
+/* ///////////// responsiveness ////////////// */
+@media only screen and (max-width: 1024px) {
+  /*kindle 600x1024*/ }
+@media only screen and (max-width: 600px) {
+  /*kindle 600x1024*/ }
+@media only screen and (max-width: 480px) {
+  /*iphone4 320x480*/ }
+@media only screen and (max-width: 384px) {
+  /*blackberry Z 384*/ }
+@media only screen and (max-width: 320px) {
+  /*iphone4, 5s 320x480*/ }
+/* ///////////// responsiveness end////////////// */
+
+/*# sourceMappingURL=styles.css.map */
