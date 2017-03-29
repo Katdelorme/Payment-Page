@@ -68,7 +68,7 @@ section {
 .container {
 	/*background-color: #b6b6b6;*/
 	/*border-radius: 25px;*/
-	min-height: 400px;
+	min-height: 450px;
 	/*padding: 5% 5% 75% 5%;
 	position: relative;*/
 	width: 100%;
@@ -170,11 +170,31 @@ p{
   margin-top: 5%;
 }
 
-.cart div:nth-child(2), .cart div:nth-child(3), .cart div:last-child{
-  background: pink;
+.cart div:nth-child(2), .cart div:nth-child(3), .cart div:nth-child(4){
+  background: #f08e5d;
   border-radius: 15px;
-  min-height: 80px;
+  display: flex;
+  min-height: 100px;
   margin-top: 5%;
+  padding: 4% 2%;
+}
+.cart .total p{
+  margin-top: 4%;
+  font-size: 1.1em;
+  padding-right: 2%;
+  text-align: right;
+}
+.cart div:nth-child(2) div:first-child, .cart div:nth-child(3) div:first-child, .cart div:nth-child(4) div:first-child{
+  background: red;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+.cart div:nth-child(2) div:last-child, .cart div:nth-child(3) div:last-child, .cart div:nth-child(4) div:last-child{
+  /*background: blue;*/
+  border-radius: 0;
+  display: block;
+  width: 60%;
 }
 
 /* footer */
@@ -205,8 +225,13 @@ footer {
 
 /* Media Queries */
 /* ///////////// responsiveness ////////////// */
-@media only screen and (min-width: 1300px) {
-
+@media only screen and (min-width: 1200px) {
+  section {
+  	width: 50%;
+  }
+  .container {
+  	min-height: 500px;
+  }
 }
 @media only screen and (max-width: 990px) {
 

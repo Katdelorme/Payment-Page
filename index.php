@@ -45,7 +45,16 @@
           <h3>Your Cart (3)</h3><p>&#9664 Continue shopping</p>
         </div>
         <div>
-          item 1
+          <div>
+            <!--<img src="http://placehold.it/50x50" alt="" />-->
+          </div>
+          <div>
+            <h5>Kobe A.D. Men's Basketball Shoe</h5>
+            <p>Style #: 852425-406</p>
+            <p>Size:</p>
+            <p>Color: Midnight Navy/University Red/Pure Platinum</p>
+            <p>Qty:</p>
+          </div>
         </div>
         <div>
           item 2
@@ -53,7 +62,9 @@
         <div>
           item 3
         </div>
-        <!--<p>Total: $305</p>-->
+        <div class="total">
+          <p>Total: $305.00</p>
+        </div>
       </div>
 			<div class="payment">
 				<div>
