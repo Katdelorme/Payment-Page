@@ -45,6 +45,7 @@
           <h3>Your Cart (3)</h3><p><span class="caret">&#9664</span> Continue shopping</p>
         </div>
         <div>
+          <i class="fa fa-times" aria-hidden="true"></i>
           <div>
             <!--<img src="http://placehold.it/50x50" alt="" />-->
           </div>
@@ -78,6 +79,7 @@
           </div>
         </div>
         <div>
+          <i class="fa fa-times" aria-hidden="true"></i>
           <div>
             <!--<img src="http://placehold.it/50x50" alt="" />-->
           </div>
@@ -105,6 +107,7 @@
           </div>
         </div>
         <div>
+          <i class="fa fa-times" aria-hidden="true"></i>
           <div>
             <!--<img src="http://placehold.it/50x50" alt="" />-->
           </div>

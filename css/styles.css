@@ -202,13 +202,15 @@ p{
   margin-top: 5%;
 }
 
-.cart div:nth-child(2), .cart div:nth-child(3), .cart div:nth-child(4){
+.cart div:nth-of-type(2), .cart div:nth-child(3), .cart div:nth-child(4){
   background: #f08e5d;
   border-radius: 15px;
   display: flex;
   min-height: 100px;
   margin-top: 2%;
   padding: 3% 2%;
+
+  position: relative;
 }
 .cart .total p{
   margin-top: 4%;
@@ -217,7 +219,7 @@ p{
   padding-right: 4%;
   text-align: right;
 }
-.cart div:nth-child(2) div:first-child, .cart div:nth-child(3) div:first-child, .cart div:nth-child(4) div:first-child{
+.cart div:nth-child(2) div:first-of-type, .cart div:nth-child(3) div:first-of-type, .cart div:nth-child(4) div:first-of-type{
   background: white;
   width: 40%;
   align-items: center;
@@ -250,6 +252,23 @@ p{
   font-size: 1.1em;
   font-weight: 400;
   text-align: right;
+}
+
+.cart i{
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 25px;
+  color: #e2763f;
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  text-align: center;
+  width: 20px;
+  z-index: 1;
+
+  position: absolute;
+  top: -5px;
+  right: -5px;
 }
 
 /* footer */
