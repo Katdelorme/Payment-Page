@@ -32,7 +32,7 @@
 	<!--favicon-->
 	<link rel="icon" type="image/png" href="favicon/favicon-bars.ico" />
 	<!--stylesheets-->
-	<link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
@@ -42,7 +42,7 @@
 		<div class="container">
 			<div class="cart">
         <div>
-          <h3>Your Cart (3)</h3><p>&#9664 Continue shopping</p>
+          <h3>Your Cart (3)</h3><p><span class="caret">&#9664</span> Continue shopping</p>
         </div>
         <div>
           <div>
@@ -50,20 +50,95 @@
           </div>
           <div>
             <h5>Kobe A.D. Men's Basketball Shoe</h5>
-            <p>Style #: 852425-406</p>
-            <p>Size:</p>
-            <p>Color: Midnight Navy/University Red/Pure Platinum</p>
-            <p>Qty:</p>
+            <p><span>Style #:</span> 852425-406</p>
+            <p><span>Size:</span>
+              <select name="size">
+  						  <option value="7">7</option>
+  						  <option value="8">8</option>
+  						  <option value="9">9</option>
+  						  <option value="10" selected="selected">10</option>
+  						  <option value="11">11</option>
+  						  <option value="12">12</option>
+  						  <option value="13">13</option>
+  						</select>
+            </p>
+            <p><span>Color:</span> Midnight Navy/University Red/Pure Platinum</p>
+            <p><span>Qty:</span>
+              <select name="qty">
+  						  <option value="1">1</option>
+  						  <option value="2">2</option>
+  						  <option value="3">3</option>
+  						  <option value="4">4</option>
+  						  <option value="5">5</option>
+  						  <option value="6">6</option>
+  						  <option value="7">7</option>
+  						</select>
+            </p>
+            <p class="itemprice">$160.00</p>
           </div>
         </div>
         <div>
-          item 2
+          <div>
+            <!--<img src="http://placehold.it/50x50" alt="" />-->
+          </div>
+          <div>
+            <h5>Nike Hoops Elite Max Air Team 2.0 Basketball Backpack</h5>
+            <p><span>Style #:</span> BA5259-010</p>
+            <p><span>Size:</span>
+              <select name="size">
+  						  <option value="-">-</option>
+  						</select>
+            </p>
+            <p><span>Color:</span>Black/Black/White</p>
+            <p><span>Qty:</span>
+              <select name="qty">
+  						  <option value="1">1</option>
+  						  <option value="2">2</option>
+  						  <option value="3">3</option>
+  						  <option value="4">4</option>
+  						  <option value="5">5</option>
+  						  <option value="6">6</option>
+  						  <option value="7">7</option>
+  						</select>
+            </p>
+            <p class="itemprice">$85.00</p>
+          </div>
         </div>
         <div>
-          item 3
+          <div>
+            <!--<img src="http://placehold.it/50x50" alt="" />-->
+          </div>
+          <div>
+            <h5>Nike Elite Chaampionship 8-Panel (Size 7) Men's Basketball</h5>
+            <p><span>Style #:</span> BB0403-801</p>
+            <p><span>Size:</span>
+              <select name="size">
+  						  <option value="7" selected="selected">7</option>
+  						  <option value="8">8</option>
+  						  <option value="9">9</option>
+  						  <option value="10">10</option>
+  						  <option value="11">11</option>
+  						  <option value="12">12</option>
+  						  <option value="13">13</option>
+  						</select>
+            </p>
+            <p><span>Color:</span> Orange/Black</p>
+            <p><span>Qty:</span>
+              <select name="qty">
+  						  <option value="1">1</option>
+  						  <option value="2">2</option>
+  						  <option value="3">3</option>
+  						  <option value="4">4</option>
+  						  <option value="5">5</option>
+  						  <option value="6">6</option>
+  						  <option value="7">7</option>
+  						</select>
+            </p>
+            <p class="itemprice">$60.00</p>
+          </div>
         </div>
         <div class="total">
-          <p>Total: $305.00</p>
+          <p>Total: <span>$305.00</span></p>
         </div>
       </div>
 			<div class="payment">
@@ -84,7 +159,8 @@
 					<input type="text" name="name" placeholder="Firstname Lastname">
 					<h4>Card Number</h4>
 					<input type="text" name="card" placeholder="5555555555555555">
-					<h4>Expiration Date</h4>
+          <div class="creditcard expire">
+          <h4>Expiration Date</h4>
 						<select name="months">
 						  <option value="january">January</option>
 						  <option value="february">February</option>
@@ -113,8 +189,11 @@
 						  <option value="2027">2027</option>
 						  <option value="2028">2028</option>
 						</select>
-					<h4>CC</h4>
-					<input type="text" name="cc" maxlength="4" size="4" placeholder="&#9679;&#9679;&#9679;">
+          </div>
+          <div class="creditcard cc">
+          <h4>CC</h4>
+					<input type="text" name="cc" maxlength="3" size="3" placeholder="&#9679;&#9679;&#9679;">
+          </div>
 
 				</div>
 				<div>
