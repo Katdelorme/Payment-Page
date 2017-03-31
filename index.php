@@ -44,102 +44,104 @@
         <div>
           <h3>Your Cart (3)</h3><p><span class="caret">&#9664</span> Continue shopping</p>
         </div>
-        <div>
-          <i class="fa fa-times" aria-hidden="true"></i>
-          <div>
-            <!--<img src="http://placehold.it/50x50" alt="" />-->
-          </div>
-          <div>
-            <h5>Kobe A.D. Men's Basketball Shoe</h5>
-            <p><span>Style #:</span> 852425-406</p>
-            <p><span>Size:</span>
-              <select name="size">
-  						  <option value="7">7</option>
-  						  <option value="8">8</option>
-  						  <option value="9">9</option>
-  						  <option value="10" selected="selected">10</option>
-  						  <option value="11">11</option>
-  						  <option value="12">12</option>
-  						  <option value="13">13</option>
-  						</select>
-            </p>
-            <p><span>Color:</span> Midnight Navy/University Red/Pure Platinum</p>
-            <p><span>Qty:</span>
-              <select name="qty">
-  						  <option value="1">1</option>
-  						  <option value="2">2</option>
-  						  <option value="3">3</option>
-  						  <option value="4">4</option>
-  						  <option value="5">5</option>
-  						  <option value="6">6</option>
-  						  <option value="7">7</option>
-  						</select>
-            </p>
-            <p class="itemprice">$160.00</p>
-          </div>
-        </div>
-        <div>
-          <i class="fa fa-times" aria-hidden="true"></i>
-          <div>
-            <!--<img src="http://placehold.it/50x50" alt="" />-->
-          </div>
-          <div>
-            <h5>Nike Hoops Elite Max Air Team 2.0 Basketball Backpack</h5>
-            <p><span>Style #:</span> BA5259-010</p>
-            <p><span>Size:</span>
-              <select name="size">
-  						  <option value="-">-</option>
-  						</select>
-            </p>
-            <p><span>Color:</span>Black/Black/White</p>
-            <p><span>Qty:</span>
-              <select name="qty">
-  						  <option value="1">1</option>
-  						  <option value="2">2</option>
-  						  <option value="3">3</option>
-  						  <option value="4">4</option>
-  						  <option value="5">5</option>
-  						  <option value="6">6</option>
-  						  <option value="7">7</option>
-  						</select>
-            </p>
-            <p class="itemprice">$85.00</p>
-          </div>
-        </div>
-        <div>
-          <i class="fa fa-times" aria-hidden="true"></i>
-          <div>
-            <!--<img src="http://placehold.it/50x50" alt="" />-->
-          </div>
-          <div>
-            <h5>Nike Elite Chaampionship 8-Panel (Size 7) Men's Basketball</h5>
-            <p><span>Style #:</span> BB0403-801</p>
-            <p><span>Size:</span>
-              <select name="size">
-  						  <option value="7" selected="selected">7</option>
-  						  <option value="8">8</option>
-  						  <option value="9">9</option>
-  						  <option value="10">10</option>
-  						  <option value="11">11</option>
-  						  <option value="12">12</option>
-  						  <option value="13">13</option>
-  						</select>
-            </p>
-            <p><span>Color:</span> Orange/Black</p>
-            <p><span>Qty:</span>
-              <select name="qty">
-  						  <option value="1">1</option>
-  						  <option value="2">2</option>
-  						  <option value="3">3</option>
-  						  <option value="4">4</option>
-  						  <option value="5">5</option>
-  						  <option value="6">6</option>
-  						  <option value="7">7</option>
-  						</select>
-            </p>
-            <p class="itemprice">$60.00</p>
-          </div>
-        </div>
+		<div class="incart">
+			<div class="item">
+			  <i class="fa fa-times" aria-hidden="true"></i>
+			  <div>
+				<!--<img src="http://placehold.it/50x50" alt="" />-->
+			  </div>
+			  <div>
+				<h5>Kobe A.D. Men's Basketball Shoe</h5>
+				<p><span>Style #:</span> 852425-406</p>
+				<p><span>Size:</span>
+				  <select name="size">
+							  <option value="7">7</option>
+							  <option value="8">8</option>
+							  <option value="9">9</option>
+							  <option value="10" selected="selected">10</option>
+							  <option value="11">11</option>
+							  <option value="12">12</option>
+							  <option value="13">13</option>
+							</select>
+				</p>
+				<p><span>Color:</span> Midnight Navy/University Red/Pure Platinum</p>
+				<p><span>Qty:</span>
+				  <select name="qty">
+							  <option value="1">1</option>
+							  <option value="2">2</option>
+							  <option value="3">3</option>
+							  <option value="4">4</option>
+							  <option value="5">5</option>
+							  <option value="6">6</option>
+							  <option value="7">7</option>
+							</select>
+				</p>
+				<p class="itemprice">$160.00</p>
+			  </div>
+			</div>
+			<div class="item">
+			  <i class="fa fa-times" aria-hidden="true"></i>
+			  <div>
+				<!--<img src="http://placehold.it/50x50" alt="" />-->
+			  </div>
+			  <div>
+				<h5>Nike Hoops Elite Max Air Team 2.0 Basketball Backpack</h5>
+				<p><span>Style #:</span> BA5259-010</p>
+				<p><span>Size:</span>
+				  <select name="size">
+							  <option value="-">-</option>
+							</select>
+				</p>
+				<p><span>Color:</span>Black/Black/White</p>
+				<p><span>Qty:</span>
+				  <select name="qty">
+							  <option value="1">1</option>
+							  <option value="2">2</option>
+							  <option value="3">3</option>
+							  <option value="4">4</option>
+							  <option value="5">5</option>
+							  <option value="6">6</option>
+							  <option value="7">7</option>
+							</select>
+				</p>
+				<p class="itemprice">$85.00</p>
+			  </div>
+			</div>
+			<div class="item">
+			  <i class="fa fa-times" aria-hidden="true"></i>
+			  <div>
+				<!--<img src="http://placehold.it/50x50" alt="" />-->
+			  </div>
+			  <div>
+				<h5>Nike Elite Chaampionship 8-Panel (Size 7) Men's Basketball</h5>
+				<p><span>Style #:</span> BB0403-801</p>
+				<p><span>Size:</span>
+				  <select name="size">
+							  <option value="7" selected="selected">7</option>
+							  <option value="8">8</option>
+							  <option value="9">9</option>
+							  <option value="10">10</option>
+							  <option value="11">11</option>
+							  <option value="12">12</option>
+							  <option value="13">13</option>
+							</select>
+				</p>
+				<p><span>Color:</span> Orange/Black</p>
+				<p><span>Qty:</span>
+				  <select name="qty">
+							  <option value="1">1</option>
+							  <option value="2">2</option>
+							  <option value="3">3</option>
+							  <option value="4">4</option>
+							  <option value="5">5</option>
+							  <option value="6">6</option>
+							  <option value="7">7</option>
+							</select>
+				</p>
+				<p class="itemprice">$60.00</p>
+			  </div>
+			</div>
+		</div>
         <div class="total">
           <p>Total: <span>$305.00</span></p>
         </div>
