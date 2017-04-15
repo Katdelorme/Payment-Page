@@ -205,7 +205,7 @@ p{
 .incart{
 	/*if {
 	max-height: 80vh;
-	} 
+	}
 	than
 	overflow-x:hidden;
 	overflow-y:scroll;*/
@@ -230,7 +230,7 @@ p{
   text-align: right;
 }
 .cart .incart div:first-child div:first-of-type, .cart .incart div:nth-child(2) div:first-of-type, .cart .incart div:last-child div:first-of-type{
-  background: white;
+  /*background: white;*/
   margin-right: 2%;
   width: 38%;
   align-items: center;

@@ -48,7 +48,7 @@
 			<div class="item">
 			  <i class="fa fa-times" aria-hidden="true"></i>
 			  <div>
-				<!--<img src="http://placehold.it/50x50" alt="" />-->
+				<img src="assets/sneakers.png" alt="sneakers" />
 			  </div>
 			  <div>
 				<h5>Kobe A.D. Men's Basketball Shoe</h5>
@@ -82,7 +82,7 @@
 			<div class="item">
 			  <i class="fa fa-times" aria-hidden="true"></i>
 			  <div>
-				<!--<img src="http://placehold.it/50x50" alt="" />-->
+				<img src="assets/backpack.png" alt="backpack. Color black and white." />
 			  </div>
 			  <div>
 				<h5>Nike Hoops Elite Max Air Team 2.0 Basketball Backpack</h5>
@@ -110,7 +110,7 @@
 			<div class="item">
 			  <i class="fa fa-times" aria-hidden="true"></i>
 			  <div>
-				<!--<img src="http://placehold.it/50x50" alt="" />-->
+				<img src="assets/mens-basketball.png" alt="Orange basketball" />
 			  </div>
 			  <div>
 				<h5>Nike Elite Chaampionship 8-Panel (Size 7) Men's Basketball</h5>
