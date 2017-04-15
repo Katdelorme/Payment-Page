@@ -218,13 +218,13 @@
 	  <p>Site mockup by <a href="https://www.behance.net/gallery/48350095/Daily-UI-Challenge" target="_blank">Stanley Huang</a> Coded with &hearts; by <a href="#" target="_blank">Katherine Delorme</a></p>
 	  <p>Learn about frontend design &amp; receive updates on my newest works, <a href="http://bit.ly/1T9ulES" target="_blank">sign up for "Let's Talk Design"</a> a monthly publication.</p>
 	</footer>
-	
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js.js"></script>
 	<script>
 		//call function when page is loaded
 		$(document).ready(function(){
 			addScroll();
-		}); 
+		});
 
 		//call function when page is resized
 		/*$(window).resize(function(){
@@ -233,11 +233,13 @@
 
 		function addScroll(){
 
-			var maxHeight = 80vh; // your max-height in px
+			var maxHeight = 80; // your max-height in px
 			if ($('.incart').height() >= maxHeight) {
 				$('.incart').css('background-color', 'red');
+        $('.incart').css('color', 'red');
 			}else {
 				$('.incart').css('background-color', 'blue');
+        $('.incart').css('color', 'blue');
 			}
 		}
 	</script>
