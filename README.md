@@ -7,7 +7,8 @@ If you would like to contact someone regarding web design project or would like 
 
 Coded by Katherine Delorme
 
-Original UI design by Stanley Huang (https://www.behance.net/gallery/48350095/Daily-UI-Challenge)
+Original UI design by Stanley Huang (http://stanleyhuangdesigns.com/)
+UI Design: https://www.behance.net/gallery/48350095/Daily-UI-Challenge)
 
 
 

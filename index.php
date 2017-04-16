@@ -215,7 +215,7 @@
 	  <a href="https://dribbble.com/KatherineDelorme" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
 	  <a href="#" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a>
 	  <p>&copy; 2017 copyright All rights reserved</p>
-	  <p>Site mockup by <a href="https://www.behance.net/gallery/48350095/Daily-UI-Challenge" target="_blank">Stanley Huang</a> Coded with &hearts; by <a href="#" target="_blank">Katherine Delorme</a></p>
+	  <p>Site mockup by <a href="http://stanleyhuangdesigns.com/" target="_blank">Stanley Huang</a> Coded with &hearts; by <a href="#" target="_blank">Katherine Delorme</a></p>
 	  <p>Learn about frontend design &amp; receive updates on my newest works, <a href="http://bit.ly/1T9ulES" target="_blank">sign up for "Let's Talk Design"</a> a monthly publication.</p>
 	</footer>
 
