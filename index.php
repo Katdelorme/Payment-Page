@@ -22,13 +22,13 @@
 	<meta name="twitter:site" content="@Katdelorme" />
 	<meta name="twitter:title" content="Nike Payment Page - UI to Frontend" />
 	<meta name="twitter:description" content="A website UI mockup turned webpage. A Nike Payment Page coded by Katherine Delorme. Frontend design utilizing html5, flexbox and more." />
-	<meta name="twitter:image" content="http://katherinedelorme.com/cateringlanding/assets/paymentPage.png" />
+	<meta name="twitter:image" content="http://katherinedelorme.com/paymentpage/assets/paymentPage.png" />
 	<!--Facebook Open Graph-->
 	<meta property="og:url" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Nike Payment Page - UI to Frontend" />
-	<meta property="og:description" content="A website UI mockup turned webpage. A Nike Payment Page coded by Katherine Delorme. Frontend design utilizing html5, flexbox and more." />
-	<meta property="og:image" content="http://katherinedelorme.com/cateringlanding/assets/paymentPage.png" />
+	<meta property="og:description" content="A website UI mockup turned webpage. A Nike Payment Page design by Stanley Huang coded by Katherine Delorme. Frontend design utilizing html5, flexbox and more." />
+	<meta property="og:image" content="http://katherinedelorme.com/paymentpage/assets/paymentPage.png" />
 	<!--favicon-->
 	<link rel="icon" type="image/png" href="favicon/favicon-bars.ico" />
 	<!--stylesheets-->
