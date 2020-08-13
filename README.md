@@ -19,8 +19,8 @@ If you would like to contact someone regarding web design project or would like 
 
 Coded by Katherine Delorme
 
-Original UI design by Stanley Huang (http://stanleyhuangdesigns.com/?utm_source=katdelormegithub&utm_medium=github)
-UI Design: https://www.behance.net/gallery/48350095/Daily-UI-Challenge?utm_source=katdelormegithub&utm_medium=github
+Original UI design by Stanley Huang ([porfolio](http://stanleyhuangdesigns.com/?utm_source=katdelormegithub&utm_medium=github "portfolio"))
+UI Design: [on Behance](https://www.behance.net/gallery/48350095/Daily-UI-Challenge?utm_source=katdelormegithub&utm_medium=github "on Behance")
 
 
 
